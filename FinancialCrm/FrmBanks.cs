@@ -41,11 +41,20 @@ namespace FinancialCrm
             lblBankProccess5.Text = bankProccess5.Description + " " + bankProccess5.Amount + "₺ " + " Tarih: " + bankProccess5.ProcessDate;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnBillingForm_Click(object sender, EventArgs e)
         {
             FrmBilling frmBilling = new FrmBilling();
             frmBilling.Show();
             this.Hide();
         }
+
+
+        private void btnDashboardForm_Click(object sender, EventArgs e)
+        {
+            FrmDashboard frmDashboard = new FrmDashboard();
+            frmDashboard.Show();
+            this.Hide();
+        }
+
     }
 }
