@@ -21,7 +21,6 @@ Banka kayıtlarını yönetmek için kullanılan formdur. Banka başlıkları ve
 - **Ekran Görüntüsü:**
   ![FrmBanks Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/banka.png)
 
-
 ---
 
 ### **FrmBilling**
@@ -33,7 +32,7 @@ Faturaların yönetildiği formdur. Faturaları listeleyebilir, yeni fatura ekle
 - **Fatura Listeleme**: Sistemdeki tüm faturalar listelenebilir.
 
 - **Ekran Görüntüsü:**
-  ![FrmBills Screenshot](assets/odeme.png) 
+  ![FrmBilling Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/odeme.png)
 
 ---
 
@@ -41,7 +40,7 @@ Faturaların yönetildiği formdur. Faturaları listeleyebilir, yeni fatura ekle
 Uygulamanın ana sayfasıdır. Bankalar, faturalar, harcamalar ve kullanıcılar gibi tüm önemli modülleri bir arada gösterir ve bu modüllere geçiş yapmanıza olanak tanır.
 
 - **Ekran Görüntüsü:**
-  ![FrmDashboard Screenshot](assets/dashboard.png)
+  ![FrmDashboard Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/dashboard.png)
 
 ---
 
@@ -57,8 +56,8 @@ Yeni kullanıcıların sisteme kayıt olabilmesi için kullanılan formdur. Kull
 Kullanıcıların sisteme giriş yapabilmesi için kullanılan formdur. Kullanıcı adı ve şifre girerek sisteme giriş yapılır.
 
 - **Ekran Görüntüsü:**
-  ![FrmLogin Screenshot](assets/login.png)
-  ![FrmLogin Screenshot](assets/login_basarili.png)
+  ![FrmLogin Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/login.png)
+  ![FrmLogin Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/login_basarili.png)
 
 ---
 
@@ -66,7 +65,7 @@ Kullanıcıların sisteme giriş yapabilmesi için kullanılan formdur. Kullanı
 Kullanıcıların sistemden çıkış yapabilmesi için kullanılan butondur.
 
 - **Ekran Görüntüsü:**
-  ![CikisYap Screenshot](assets/cikisyap.png)
+  ![CikisYap Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/cikisyap.png)
   
 ---
 
