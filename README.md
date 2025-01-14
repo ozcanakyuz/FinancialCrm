@@ -19,7 +19,8 @@ Aşağıda uygulamanın temel bileşenleri olan formlar yer almaktadır:
 Banka kayıtlarını yönetmek için kullanılan formdur. Banka başlıkları ve bakiye bilgilerini ekleyebilir, güncelleyebilir veya silebilirsiniz.
 
 - **Ekran Görüntüsü:**
-  ![FrmBanks Screenshot](/tree/master/FinancialCrm/assets/banka.png)
+  ![FrmBanks Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/banka.png)
+
 
 ---
 
