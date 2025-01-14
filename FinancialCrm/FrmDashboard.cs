@@ -96,5 +96,14 @@ namespace FinancialCrm
             }
         }
 
+        private void btnCikisYap_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("Uygulamadan çıkmak istediğinize emin misiniz?", "Çıkış Yap", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

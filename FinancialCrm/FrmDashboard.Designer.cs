@@ -46,7 +46,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnCikisYap = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -59,8 +59,8 @@
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -189,17 +189,18 @@
             this.panel2.Size = new System.Drawing.Size(881, 36);
             this.panel2.TabIndex = 9;
             // 
-            // button5
+            // btnCikisYap
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(16, 378);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(154, 39);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Çıkış Yap";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnCikisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCikisYap.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCikisYap.ForeColor = System.Drawing.Color.White;
+            this.btnCikisYap.Location = new System.Drawing.Point(16, 378);
+            this.btnCikisYap.Name = "btnCikisYap";
+            this.btnCikisYap.Size = new System.Drawing.Size(154, 39);
+            this.btnCikisYap.TabIndex = 7;
+            this.btnCikisYap.Text = "Çıkış Yap";
+            this.btnCikisYap.UseVisualStyleBackColor = true;
+            this.btnCikisYap.Click += new System.EventHandler(this.btnCikisYap_Click);
             // 
             // button6
             // 
@@ -294,7 +295,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(35)))), ((int)(((byte)(182)))));
-            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.btnCikisYap);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.button8);
@@ -357,15 +358,6 @@
             this.panel6.Size = new System.Drawing.Size(300, 47);
             this.panel6.TabIndex = 15;
             // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Silver;
-            this.panel7.Controls.Add(this.label5);
-            this.panel7.Location = new System.Drawing.Point(516, 154);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(300, 47);
-            this.panel7.TabIndex = 16;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -377,6 +369,15 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "Bankalar ve Banka Hesaplarındaki Para Miktarları\r\nGrafiği";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Silver;
+            this.panel7.Controls.Add(this.label5);
+            this.panel7.Location = new System.Drawing.Point(516, 154);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(300, 47);
+            this.panel7.TabIndex = 16;
             // 
             // label5
             // 
@@ -440,7 +441,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnCikisYap;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
