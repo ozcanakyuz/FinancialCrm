@@ -56,7 +56,7 @@ Yeni kullanıcıların sisteme kayıt olabilmesi için kullanılan formdur. Kull
 Kullanıcıların sisteme giriş yapabilmesi için kullanılan formdur. Kullanıcı adı ve şifre girerek sisteme giriş yapılır.
 
 - **Ekran Görüntüsü:**
-  ![FrmLogin Screenshot](https://i.hizliresim.com/ivym0ab.png)
+  ![FrmLogin Screenshot]((https://hizliresim.com/24lkst8)
   ![FrmLogin Screenshot](https://i.hizliresim.com/n0q91pn.png)
 
 ---
