@@ -48,7 +48,8 @@ Uygulamanın ana sayfasıdır. Bankalar, faturalar, harcamalar ve kullanıcılar
 Yeni kullanıcıların sisteme kayıt olabilmesi için kullanılan formdur. Kullanıcı adı, şifre ve diğer bilgileri girerek sisteme kayıt olabilirsiniz.
 
 - **Ekran Görüntüsü:**
-  ![FrmKayitOl Screenshot](https://i.hizliresim.com/8lato1c.png) 
+  ![FrmKayitOl Screenshot](https://i.hizliresim.com/8lato1c.png)
+  ![FrmKayitOl Screenshot](https://ibb.co/hmnM8NY)
 
 ---
 
