@@ -62,6 +62,7 @@
             // 
             this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtUsername.Font = new System.Drawing.Font("Calibri", 14F);
+            this.txtUsername.ForeColor = System.Drawing.SystemColors.GrayText;
             this.txtUsername.Location = new System.Drawing.Point(75, 119);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(230, 30);
@@ -121,12 +122,13 @@
             this.label5.Size = new System.Drawing.Size(55, 18);
             this.label5.TabIndex = 7;
             this.label5.Text = "Kayıt Ol";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(384, 361);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -140,6 +142,7 @@
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmLogin";
+            this.Load += new System.EventHandler(this.FrmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

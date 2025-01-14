@@ -16,7 +16,7 @@ namespace FinancialCrm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmKayitOl());
+            Application.Run(new FrmLogin());
         }
     }
 }
