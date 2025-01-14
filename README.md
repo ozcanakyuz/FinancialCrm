@@ -48,7 +48,7 @@ Uygulamanın ana sayfasıdır. Bankalar, faturalar, harcamalar ve kullanıcılar
 Yeni kullanıcıların sisteme kayıt olabilmesi için kullanılan formdur. Kullanıcı adı, şifre ve diğer bilgileri girerek sisteme kayıt olabilirsiniz.
 
 - **Ekran Görüntüsü:**
-  ![FrmKayitOl Screenshot](assets/kayitol.png)
+  ![FrmKayitOl Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/kayitol.png)
 
 ---
 
