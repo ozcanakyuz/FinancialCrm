@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnCikisYap = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnDashboardForm = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -61,17 +61,18 @@
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button5
+            // btnCikisYap
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(16, 378);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(154, 39);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Çıkış Yap";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnCikisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCikisYap.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCikisYap.ForeColor = System.Drawing.Color.White;
+            this.btnCikisYap.Location = new System.Drawing.Point(16, 378);
+            this.btnCikisYap.Name = "btnCikisYap";
+            this.btnCikisYap.Size = new System.Drawing.Size(154, 39);
+            this.btnCikisYap.TabIndex = 7;
+            this.btnCikisYap.Text = "Çıkış Yap";
+            this.btnCikisYap.UseVisualStyleBackColor = true;
+            this.btnCikisYap.Click += new System.EventHandler(this.btnCikisYap_Click);
             // 
             // button6
             // 
@@ -166,7 +167,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(35)))), ((int)(((byte)(182)))));
-            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.btnCikisYap);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.btnDashboardForm);
             this.panel1.Controls.Add(this.button8);
@@ -396,7 +397,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnCikisYap;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnDashboardForm;
         private System.Windows.Forms.Button button8;

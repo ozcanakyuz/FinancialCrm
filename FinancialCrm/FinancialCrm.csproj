@@ -171,6 +171,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="assets\banka.png" />
+    <Content Include="assets\cikisyap.png" />
+    <Content Include="assets\dashboard.png" />
+    <Content Include="assets\kayitol.png" />
+    <Content Include="assets\login.png" />
+    <Content Include="assets\login_basarili.png" />
+    <Content Include="assets\odeme.png" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>
