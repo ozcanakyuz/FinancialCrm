@@ -19,7 +19,7 @@ Aşağıda uygulamanın temel bileşenleri olan formlar yer almaktadır:
 Banka kayıtlarını yönetmek için kullanılan formdur. Banka başlıkları ve bakiye bilgilerini ekleyebilir, güncelleyebilir veya silebilirsiniz.
 
 - **Ekran Görüntüsü:**
-  ![FrmBanks Screenshot](https://i.hizliresim.com/acxa14u.png)  
+  ![FrmBanks Screenshot](assets/banka.png)
 
 ---
 
@@ -32,7 +32,7 @@ Faturaların yönetildiği formdur. Faturaları listeleyebilir, yeni fatura ekle
 - **Fatura Listeleme**: Sistemdeki tüm faturalar listelenebilir.
 
 - **Ekran Görüntüsü:**
-  ![FrmBilling Screenshot](https://i.hizliresim.com/p6o6nr8.png)  
+  ![FrmBills Screenshot](assets/odeme.png) 
 
 ---
 
@@ -40,7 +40,7 @@ Faturaların yönetildiği formdur. Faturaları listeleyebilir, yeni fatura ekle
 Uygulamanın ana sayfasıdır. Bankalar, faturalar, harcamalar ve kullanıcılar gibi tüm önemli modülleri bir arada gösterir ve bu modüllere geçiş yapmanıza olanak tanır.
 
 - **Ekran Görüntüsü:**
-  ![FrmDashboard Screenshot](https://i.hizliresim.com/6po3f42.png) 
+  ![FrmDashboard Screenshot](assets/dashboard.png)
 
 ---
 
@@ -48,8 +48,7 @@ Uygulamanın ana sayfasıdır. Bankalar, faturalar, harcamalar ve kullanıcılar
 Yeni kullanıcıların sisteme kayıt olabilmesi için kullanılan formdur. Kullanıcı adı, şifre ve diğer bilgileri girerek sisteme kayıt olabilirsiniz.
 
 - **Ekran Görüntüsü:**
-  ![FrmKayitOl Screenshot](https://i.hizliresim.com/8lato1c.png)
-  ![FrmKayitOl Screenshot](https://ibb.co/hmnM8NY)
+  ![FrmKayitOl Screenshot](assets/kayitol.png)
 
 ---
 
@@ -57,8 +56,8 @@ Yeni kullanıcıların sisteme kayıt olabilmesi için kullanılan formdur. Kull
 Kullanıcıların sisteme giriş yapabilmesi için kullanılan formdur. Kullanıcı adı ve şifre girerek sisteme giriş yapılır.
 
 - **Ekran Görüntüsü:**
-  ![FrmLogin Screenshot](https://ibb.co/s9mWBXN)
-  ![FrmLogin Screenshot](https://i.hizliresim.com/n0q91pn.png)
+  ![FrmLogin Screenshot](assets/login.png)
+  ![FrmLogin Screenshot](assets/login_basarili.png)
 
 ---
 
@@ -66,7 +65,7 @@ Kullanıcıların sisteme giriş yapabilmesi için kullanılan formdur. Kullanı
 Kullanıcıların sistemden çıkış yapabilmesi için kullanılan butondur.
 
 - **Ekran Görüntüsü:**
-  ![CikisYap Screenshot](https://i.hizliresim.com/dtzaabb.png)
+  ![CikisYap Screenshot](assets/cikisyap.png)
   
 ---
 
