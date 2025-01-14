@@ -28,7 +28,42 @@ namespace FinancialCrm
             lblTotalBalance.Text = $"{totalBalance:0,0.00}₺";
 
             var lastBankProcessAmount = db.BankProcess.OrderByDescending(x => x.BankProcessId).Take(1).Select(y => y.Amount).FirstOrDefault();
-            lblLastBankProcessAmount.Text = lastBankProcessAmount.ToString() + "₺"; 
+            lblLastBankProcessAmount.Text = lastBankProcessAmount.ToString() + "₺";
+
+            // CHART_1 KODLARI
+            var bankData = db.Banks.Select(x => new
+            {
+                x.BankTitle,
+                x.BankBalance
+            }).ToList();
+
+            chart1.Series.Clear();
+            var series1 = chart1.Series.Add("BankSeries");
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Column; // Sütun grafiği
+            series1.IsValueShownAsLabel = true;
+
+            foreach (var item in bankData)
+            {
+                series1.Points.AddXY(item.BankTitle, item.BankBalance);
+            }
+
+            // CHART_2 KODLARI
+            var billData = db.Bills.Select(x => new
+            {
+                x.BillTitle,
+                x.BillAmount
+            }).ToList();
+
+            chart2.Series.Clear();
+            var series2 = chart2.Series.Add("BillSeries");
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie; // Pasta grafiği
+            series2.IsValueShownAsLabel = true;
+
+            foreach (var item in billData)
+            {
+                series2.Points.AddXY(item.BillTitle, item.BillAmount);
+            }
+
         }
         private void btnBillingForm_Click(object sender, EventArgs e)
         {
