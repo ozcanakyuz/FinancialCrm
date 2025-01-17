@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace FinancialCrm
 {
     public partial class FrmLogin : Form
@@ -19,6 +20,9 @@ namespace FinancialCrm
         }
 
         FinancialCrmDbEntities db = new FinancialCrmDbEntities();
+
+        public static int LoggedInUserId;
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text.Trim();
@@ -36,8 +40,9 @@ namespace FinancialCrm
 
                 if (user != null)
                 {
-                    MessageBox.Show("Giriş başarılı! Hoş geldiniz.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                    MessageBox.Show("Giriş başarılı! Hoş geldiniz.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoggedInUserId = user.UserId;
                     FrmDashboard frmDashboard = new FrmDashboard();
                     frmDashboard.Show();
                     this.Hide();
