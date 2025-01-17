@@ -69,19 +69,19 @@
             this.Cat.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold);
             this.Cat.Location = new System.Drawing.Point(242, 322);
             this.Cat.Name = "Cat";
-            this.Cat.Size = new System.Drawing.Size(105, 23);
+            this.Cat.Size = new System.Drawing.Size(101, 23);
             this.Cat.TabIndex = 33;
-            this.Cat.Text = "Category Id:";
+            this.Cat.Text = "Kategori Id:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(210, 358);
+            this.label2.Location = new System.Drawing.Point(230, 358);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 23);
+            this.label2.Size = new System.Drawing.Size(113, 23);
             this.label2.TabIndex = 32;
-            this.label2.Text = "Category Name:";
+            this.label2.Text = "Kategori Adı:";
             // 
             // dataGridView1
             // 

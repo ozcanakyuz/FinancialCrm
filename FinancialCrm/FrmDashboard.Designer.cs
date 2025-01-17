@@ -252,6 +252,7 @@
             this.btnFrmSpendings.TabIndex = 3;
             this.btnFrmSpendings.Text = "Giderler";
             this.btnFrmSpendings.UseVisualStyleBackColor = true;
+            this.btnFrmSpendings.Click += new System.EventHandler(this.btnFrmSpendings_Click);
             // 
             // btnFrmBilling
             // 

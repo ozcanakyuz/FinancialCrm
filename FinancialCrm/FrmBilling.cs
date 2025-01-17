@@ -126,7 +126,9 @@ namespace FinancialCrm
 
         private void btnFrmSpendings_Click(object sender, EventArgs e)
         {
-
+            FrmSpendings frmSpendings = new FrmSpendings();
+            frmSpendings.Show();
+            this.Hide();
         }
 
         private void btnFrmBankProcess_Click(object sender, EventArgs e)

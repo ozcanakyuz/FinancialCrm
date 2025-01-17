@@ -80,7 +80,9 @@ namespace FinancialCrm
 
         private void btnFrmSpendings_Click(object sender, EventArgs e)
         {
-
+            FrmSpendings frmSpendings = new FrmSpendings();
+            frmSpendings.Show();
+            this.Hide();
         }
 
         private void btnCreateCategory_Click(object sender, EventArgs e)

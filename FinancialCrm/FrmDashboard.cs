@@ -119,5 +119,12 @@ namespace FinancialCrm
             frmBilling.Show();
             this.Hide();
         }
+
+        private void btnFrmSpendings_Click(object sender, EventArgs e)
+        {
+            FrmSpendings frmSpendings = new FrmSpendings();
+            frmSpendings.Show();
+            this.Hide();
+        }
     }
 }
