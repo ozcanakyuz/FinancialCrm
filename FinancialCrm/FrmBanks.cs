@@ -41,14 +41,6 @@ namespace FinancialCrm
             lblBankProccess5.Text = bankProccess5.Description + " " + bankProccess5.Amount + "₺ " + " Tarih: " + bankProccess5.ProcessDate;
         }
 
-        private void btnBillingForm_Click(object sender, EventArgs e)
-        {
-            FrmBilling frmBilling = new FrmBilling();
-            frmBilling.Show();
-            this.Hide();
-        }
-
-
         private void btnDashboardForm_Click(object sender, EventArgs e)
         {
             FrmDashboard frmDashboard = new FrmDashboard();
@@ -72,6 +64,30 @@ namespace FinancialCrm
             FrmSettings frmSettings = new FrmSettings();
             frmSettings.Show();
             this.Hide();
+        }
+
+        private void btnFrmCategories_Click(object sender, EventArgs e)
+        {
+            FrmCategories frmCategories = new FrmCategories();
+            frmCategories.Show();
+            this.Hide();
+        }
+
+        private void btnFrmBilling_Click(object sender, EventArgs e)
+        {
+            FrmBilling frmBilling = new FrmBilling();
+            frmBilling.Show();
+            this.Hide();
+        }
+
+        private void btnFrmSpendings_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFrmBankProcess_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

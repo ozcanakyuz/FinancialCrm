@@ -32,11 +32,11 @@
             this.btnCikisYap = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnDashboardForm = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.btnBillingForm = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnFrmBankProcess = new System.Windows.Forms.Button();
+            this.btnFrmSpendings = new System.Windows.Forms.Button();
+            this.btnFrmBilling = new System.Windows.Forms.Button();
+            this.btnFrmBanks = new System.Windows.Forms.Button();
+            this.btnFrmCategories = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -96,75 +96,79 @@
             this.btnDashboardForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboardForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDashboardForm.ForeColor = System.Drawing.Color.White;
-            this.btnDashboardForm.Location = new System.Drawing.Point(16, 275);
+            this.btnDashboardForm.Location = new System.Drawing.Point(16, 14);
             this.btnDashboardForm.Name = "btnDashboardForm";
             this.btnDashboardForm.Size = new System.Drawing.Size(154, 39);
             this.btnDashboardForm.TabIndex = 5;
             this.btnDashboardForm.Text = "Dashboard";
             this.btnDashboardForm.UseVisualStyleBackColor = true;
+            this.btnDashboardForm.Click += new System.EventHandler(this.btnDashboardForm_Click);
             // 
-            // button8
+            // btnFrmBankProcess
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(16, 223);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(154, 39);
-            this.button8.TabIndex = 4;
-            this.button8.Text = "Banka Hareketleri";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnFrmBankProcess.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnFrmBankProcess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrmBankProcess.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFrmBankProcess.ForeColor = System.Drawing.Color.White;
+            this.btnFrmBankProcess.Location = new System.Drawing.Point(16, 270);
+            this.btnFrmBankProcess.Name = "btnFrmBankProcess";
+            this.btnFrmBankProcess.Size = new System.Drawing.Size(154, 39);
+            this.btnFrmBankProcess.TabIndex = 4;
+            this.btnFrmBankProcess.Text = "Banka Hareketleri";
+            this.btnFrmBankProcess.UseVisualStyleBackColor = true;
             // 
-            // btnBillingForm
+            // btnFrmSpendings
             // 
-            this.btnBillingForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBillingForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBillingForm.ForeColor = System.Drawing.Color.White;
-            this.btnBillingForm.Location = new System.Drawing.Point(16, 172);
-            this.btnBillingForm.Name = "btnBillingForm";
-            this.btnBillingForm.Size = new System.Drawing.Size(154, 39);
-            this.btnBillingForm.TabIndex = 3;
-            this.btnBillingForm.Text = "Giderler";
-            this.btnBillingForm.UseVisualStyleBackColor = true;
+            this.btnFrmSpendings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrmSpendings.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFrmSpendings.ForeColor = System.Drawing.Color.White;
+            this.btnFrmSpendings.Location = new System.Drawing.Point(16, 219);
+            this.btnFrmSpendings.Name = "btnFrmSpendings";
+            this.btnFrmSpendings.Size = new System.Drawing.Size(154, 39);
+            this.btnFrmSpendings.TabIndex = 3;
+            this.btnFrmSpendings.Text = "Giderler";
+            this.btnFrmSpendings.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnFrmBilling
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(16, 119);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(154, 39);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Faturalar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnFrmBilling.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnFrmBilling.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrmBilling.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFrmBilling.ForeColor = System.Drawing.Color.White;
+            this.btnFrmBilling.Location = new System.Drawing.Point(16, 166);
+            this.btnFrmBilling.Name = "btnFrmBilling";
+            this.btnFrmBilling.Size = new System.Drawing.Size(154, 39);
+            this.btnFrmBilling.TabIndex = 2;
+            this.btnFrmBilling.Text = "Faturalar";
+            this.btnFrmBilling.UseVisualStyleBackColor = true;
+            this.btnFrmBilling.Click += new System.EventHandler(this.btnFrmBilling_Click);
             // 
-            // button2
+            // btnFrmBanks
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(16, 65);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(154, 39);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Bankalar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnFrmBanks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrmBanks.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFrmBanks.ForeColor = System.Drawing.Color.White;
+            this.btnFrmBanks.Location = new System.Drawing.Point(16, 114);
+            this.btnFrmBanks.Name = "btnFrmBanks";
+            this.btnFrmBanks.Size = new System.Drawing.Size(154, 39);
+            this.btnFrmBanks.TabIndex = 1;
+            this.btnFrmBanks.Text = "Bankalar";
+            this.btnFrmBanks.UseVisualStyleBackColor = true;
+            this.btnFrmBanks.Click += new System.EventHandler(this.btnFrmBanks_Click);
             // 
-            // button1
+            // btnFrmCategories
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(16, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 39);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Kategoriler";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnFrmCategories.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnFrmCategories.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrmCategories.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFrmCategories.ForeColor = System.Drawing.Color.White;
+            this.btnFrmCategories.Location = new System.Drawing.Point(16, 64);
+            this.btnFrmCategories.Name = "btnFrmCategories";
+            this.btnFrmCategories.Size = new System.Drawing.Size(154, 39);
+            this.btnFrmCategories.TabIndex = 0;
+            this.btnFrmCategories.Text = "Kategoriler";
+            this.btnFrmCategories.UseVisualStyleBackColor = true;
+            this.btnFrmCategories.Click += new System.EventHandler(this.btnFrmCategories_Click);
             // 
             // panel1
             // 
@@ -172,11 +176,11 @@
             this.panel1.Controls.Add(this.btnCikisYap);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.btnDashboardForm);
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.btnBillingForm);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnFrmBankProcess);
+            this.panel1.Controls.Add(this.btnFrmSpendings);
+            this.panel1.Controls.Add(this.btnFrmBilling);
+            this.panel1.Controls.Add(this.btnFrmBanks);
+            this.panel1.Controls.Add(this.btnFrmCategories);
             this.panel1.Location = new System.Drawing.Point(0, 36);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(191, 481);
@@ -196,7 +200,7 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(82)))), ((int)(((byte)(221)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(564, 311);
+            this.dataGridView1.Location = new System.Drawing.Point(402, 311);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(255, 142);
             this.dataGridView1.TabIndex = 13;
@@ -206,7 +210,7 @@
             this.btnUpdatePassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
             this.btnUpdatePassword.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnUpdatePassword.ForeColor = System.Drawing.Color.White;
-            this.btnUpdatePassword.Location = new System.Drawing.Point(576, 254);
+            this.btnUpdatePassword.Location = new System.Drawing.Point(414, 254);
             this.btnUpdatePassword.Name = "btnUpdatePassword";
             this.btnUpdatePassword.Size = new System.Drawing.Size(230, 41);
             this.btnUpdatePassword.TabIndex = 3;
@@ -217,7 +221,7 @@
             // txtNewPassword
             // 
             this.txtNewPassword.Font = new System.Drawing.Font("Calibri", 14F);
-            this.txtNewPassword.Location = new System.Drawing.Point(576, 181);
+            this.txtNewPassword.Location = new System.Drawing.Point(414, 181);
             this.txtNewPassword.Name = "txtNewPassword";
             this.txtNewPassword.Size = new System.Drawing.Size(230, 30);
             this.txtNewPassword.TabIndex = 1;
@@ -228,7 +232,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(485, 184);
+            this.label2.Location = new System.Drawing.Point(323, 184);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 23);
             this.label2.TabIndex = 15;
@@ -237,17 +241,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(476, 54);
+            this.label3.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(309, 51);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(343, 33);
+            this.label3.Size = new System.Drawing.Size(370, 36);
             this.label3.TabIndex = 14;
             this.label3.Text = "KULLANICI ŞİFRE DEĞİŞTİRME";
             // 
             // txtOldPassword
             // 
             this.txtOldPassword.Font = new System.Drawing.Font("Calibri", 14F);
-            this.txtOldPassword.Location = new System.Drawing.Point(576, 145);
+            this.txtOldPassword.Location = new System.Drawing.Point(414, 145);
             this.txtOldPassword.Name = "txtOldPassword";
             this.txtOldPassword.Size = new System.Drawing.Size(230, 30);
             this.txtOldPassword.TabIndex = 0;
@@ -258,7 +262,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(464, 149);
+            this.label4.Location = new System.Drawing.Point(302, 149);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(110, 23);
             this.label4.TabIndex = 19;
@@ -267,7 +271,7 @@
             // txtConfirmPassword
             // 
             this.txtConfirmPassword.Font = new System.Drawing.Font("Calibri", 14F);
-            this.txtConfirmPassword.Location = new System.Drawing.Point(576, 217);
+            this.txtConfirmPassword.Location = new System.Drawing.Point(414, 217);
             this.txtConfirmPassword.Name = "txtConfirmPassword";
             this.txtConfirmPassword.Size = new System.Drawing.Size(230, 30);
             this.txtConfirmPassword.TabIndex = 2;
@@ -278,7 +282,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(420, 221);
+            this.label5.Location = new System.Drawing.Point(258, 221);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(154, 23);
             this.label5.TabIndex = 21;
@@ -289,7 +293,7 @@
             this.lblMessage.AutoSize = true;
             this.lblMessage.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblMessage.ForeColor = System.Drawing.Color.Red;
-            this.lblMessage.Location = new System.Drawing.Point(572, 123);
+            this.lblMessage.Location = new System.Drawing.Point(410, 123);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(0, 19);
             this.lblMessage.TabIndex = 23;
@@ -331,11 +335,11 @@
         private System.Windows.Forms.Button btnCikisYap;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnDashboardForm;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button btnBillingForm;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFrmBankProcess;
+        private System.Windows.Forms.Button btnFrmSpendings;
+        private System.Windows.Forms.Button btnFrmBilling;
+        private System.Windows.Forms.Button btnFrmBanks;
+        private System.Windows.Forms.Button btnFrmCategories;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;

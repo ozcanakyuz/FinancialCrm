@@ -40,6 +40,10 @@ namespace FinancialCrm
                 {
                     MessageBox.Show("Bu kullanıcı adı zaten alınmış!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
+                } else if (username == "Kullanıcı adı" && password == "Şifre")
+                {
+                    MessageBox.Show("Kullanıcı adı ve şifre boş bırakılamaz!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
                 }
 
                 Users newUser = new Users
@@ -108,5 +112,11 @@ namespace FinancialCrm
             }
         }
 
+        private void btnFrmLogin_Click(object sender, EventArgs e)
+        {
+            FrmLogin frmLogin = new FrmLogin();
+            frmLogin.Show();
+            this.Hide();
+        }
     }
 }

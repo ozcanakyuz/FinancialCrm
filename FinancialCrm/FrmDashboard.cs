@@ -65,12 +65,6 @@ namespace FinancialCrm
             }
 
         }
-        private void btnBillingForm_Click(object sender, EventArgs e)
-        {
-            FrmBilling frmBilling = new FrmBilling();
-            frmBilling.Show();
-            this.Hide();
-        }
 
         private void btnBankForm_Click(object sender, EventArgs e)
         {
@@ -110,6 +104,19 @@ namespace FinancialCrm
         {
             FrmSettings frmSettings = new FrmSettings();
             frmSettings.Show();
+            this.Hide();
+        }
+        private void btnFrmCategories_Click_1(object sender, EventArgs e)
+        {
+            FrmCategories frmCategories = new FrmCategories();
+            frmCategories.Show();
+            this.Hide();
+        }
+
+        private void btnFrmBilling_Click(object sender, EventArgs e)
+        {
+            FrmBilling frmBilling = new FrmBilling();
+            frmBilling.Show();
             this.Hide();
         }
     }

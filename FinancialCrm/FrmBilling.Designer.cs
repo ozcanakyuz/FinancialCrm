@@ -31,11 +31,11 @@
             this.btnCikisYap = new System.Windows.Forms.Button();
             this.btnSettings = new System.Windows.Forms.Button();
             this.btnDashboardForm = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.btnBillFrom = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnFrmBankProcess = new System.Windows.Forms.Button();
+            this.btnFrmSpendings = new System.Windows.Forms.Button();
+            this.btnFrmBilling = new System.Windows.Forms.Button();
             this.btnBanksFrom = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnFrmCategories = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnUpdateBill = new System.Windows.Forms.Button();
@@ -93,7 +93,7 @@
             this.btnDashboardForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboardForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDashboardForm.ForeColor = System.Drawing.Color.White;
-            this.btnDashboardForm.Location = new System.Drawing.Point(16, 275);
+            this.btnDashboardForm.Location = new System.Drawing.Point(16, 15);
             this.btnDashboardForm.Name = "btnDashboardForm";
             this.btnDashboardForm.Size = new System.Drawing.Size(154, 39);
             this.btnDashboardForm.TabIndex = 5;
@@ -101,50 +101,52 @@
             this.btnDashboardForm.UseVisualStyleBackColor = true;
             this.btnDashboardForm.Click += new System.EventHandler(this.btnDashboardForm_Click);
             // 
-            // button8
+            // btnFrmBankProcess
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(16, 223);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(154, 39);
-            this.button8.TabIndex = 4;
-            this.button8.Text = "Banka Hareketleri";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnFrmBankProcess.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnFrmBankProcess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrmBankProcess.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFrmBankProcess.ForeColor = System.Drawing.Color.White;
+            this.btnFrmBankProcess.Location = new System.Drawing.Point(16, 273);
+            this.btnFrmBankProcess.Name = "btnFrmBankProcess";
+            this.btnFrmBankProcess.Size = new System.Drawing.Size(154, 39);
+            this.btnFrmBankProcess.TabIndex = 4;
+            this.btnFrmBankProcess.Text = "Banka Hareketleri";
+            this.btnFrmBankProcess.UseVisualStyleBackColor = true;
+            this.btnFrmBankProcess.Click += new System.EventHandler(this.btnFrmBankProcess_Click);
             // 
-            // btnBillFrom
+            // btnFrmSpendings
             // 
-            this.btnBillFrom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBillFrom.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBillFrom.ForeColor = System.Drawing.Color.White;
-            this.btnBillFrom.Location = new System.Drawing.Point(16, 172);
-            this.btnBillFrom.Name = "btnBillFrom";
-            this.btnBillFrom.Size = new System.Drawing.Size(154, 39);
-            this.btnBillFrom.TabIndex = 3;
-            this.btnBillFrom.Text = "Giderler";
-            this.btnBillFrom.UseVisualStyleBackColor = true;
+            this.btnFrmSpendings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrmSpendings.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFrmSpendings.ForeColor = System.Drawing.Color.White;
+            this.btnFrmSpendings.Location = new System.Drawing.Point(16, 222);
+            this.btnFrmSpendings.Name = "btnFrmSpendings";
+            this.btnFrmSpendings.Size = new System.Drawing.Size(154, 39);
+            this.btnFrmSpendings.TabIndex = 3;
+            this.btnFrmSpendings.Text = "Giderler";
+            this.btnFrmSpendings.UseVisualStyleBackColor = true;
+            this.btnFrmSpendings.Click += new System.EventHandler(this.btnFrmSpendings_Click);
             // 
-            // button4
+            // btnFrmBilling
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(16, 119);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(154, 39);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Faturalar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnFrmBilling.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnFrmBilling.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrmBilling.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFrmBilling.ForeColor = System.Drawing.Color.White;
+            this.btnFrmBilling.Location = new System.Drawing.Point(16, 171);
+            this.btnFrmBilling.Name = "btnFrmBilling";
+            this.btnFrmBilling.Size = new System.Drawing.Size(154, 39);
+            this.btnFrmBilling.TabIndex = 2;
+            this.btnFrmBilling.Text = "Faturalar";
+            this.btnFrmBilling.UseVisualStyleBackColor = true;
             // 
             // btnBanksFrom
             // 
             this.btnBanksFrom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBanksFrom.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnBanksFrom.ForeColor = System.Drawing.Color.White;
-            this.btnBanksFrom.Location = new System.Drawing.Point(16, 65);
+            this.btnBanksFrom.Location = new System.Drawing.Point(16, 117);
             this.btnBanksFrom.Name = "btnBanksFrom";
             this.btnBanksFrom.Size = new System.Drawing.Size(154, 39);
             this.btnBanksFrom.TabIndex = 1;
@@ -152,18 +154,19 @@
             this.btnBanksFrom.UseVisualStyleBackColor = true;
             this.btnBanksFrom.Click += new System.EventHandler(this.btnBanksFrom_Click);
             // 
-            // button1
+            // btnFrmCategories
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(16, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 39);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Kategoriler";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnFrmCategories.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnFrmCategories.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrmCategories.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFrmCategories.ForeColor = System.Drawing.Color.White;
+            this.btnFrmCategories.Location = new System.Drawing.Point(16, 64);
+            this.btnFrmCategories.Name = "btnFrmCategories";
+            this.btnFrmCategories.Size = new System.Drawing.Size(154, 39);
+            this.btnFrmCategories.TabIndex = 0;
+            this.btnFrmCategories.Text = "Kategoriler";
+            this.btnFrmCategories.UseVisualStyleBackColor = true;
+            this.btnFrmCategories.Click += new System.EventHandler(this.btnFrmCategories_Click);
             // 
             // panel1
             // 
@@ -171,11 +174,11 @@
             this.panel1.Controls.Add(this.btnCikisYap);
             this.panel1.Controls.Add(this.btnSettings);
             this.panel1.Controls.Add(this.btnDashboardForm);
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.btnBillFrom);
-            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.btnFrmBankProcess);
+            this.panel1.Controls.Add(this.btnFrmSpendings);
+            this.panel1.Controls.Add(this.btnFrmBilling);
             this.panel1.Controls.Add(this.btnBanksFrom);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnFrmCategories);
             this.panel1.Location = new System.Drawing.Point(0, 34);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(191, 481);
@@ -401,11 +404,11 @@
         private System.Windows.Forms.Button btnCikisYap;
         private System.Windows.Forms.Button btnSettings;
         private System.Windows.Forms.Button btnDashboardForm;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button btnBillFrom;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnFrmBankProcess;
+        private System.Windows.Forms.Button btnFrmSpendings;
+        private System.Windows.Forms.Button btnFrmBilling;
         private System.Windows.Forms.Button btnBanksFrom;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFrmCategories;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txtBillId;

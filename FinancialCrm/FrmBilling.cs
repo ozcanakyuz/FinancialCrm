@@ -65,8 +65,6 @@ namespace FinancialCrm
             {
                 MessageBox.Show("Böyle Bir Ödeme Mevcut Değildir!", "Ödeme & Faturalar", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-
-
         }
 
         private void btnUpdateBill_Click(object sender, EventArgs e)
@@ -117,6 +115,23 @@ namespace FinancialCrm
             FrmSettings frmSettings = new FrmSettings();
             frmSettings.Show();
             this.Hide();
+        }
+
+        private void btnFrmCategories_Click(object sender, EventArgs e)
+        {
+            FrmCategories frmCategories = new FrmCategories();
+            frmCategories.Show();
+            this.Hide();
+        }
+
+        private void btnFrmSpendings_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFrmBankProcess_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

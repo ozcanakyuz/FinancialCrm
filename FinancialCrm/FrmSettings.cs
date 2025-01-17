@@ -90,5 +90,33 @@ namespace FinancialCrm
 
             LoadUserData();
         }
+
+        private void btnFrmBanks_Click(object sender, EventArgs e)
+        {
+            FrmBanks frmBanks = new FrmBanks();
+            frmBanks.Show();
+            this.Hide();
+        }
+
+        private void btnFrmBilling_Click(object sender, EventArgs e)
+        {
+            FrmBilling frmBilling = new FrmBilling();
+            frmBilling.Show();
+            this.Hide();
+        }
+
+        private void btnDashboardForm_Click(object sender, EventArgs e)
+        {
+            FrmDashboard frmDashboard = new FrmDashboard();
+            frmDashboard.Show();
+            this.Hide();
+        }
+
+        private void btnFrmCategories_Click(object sender, EventArgs e)
+        {
+            FrmCategories frmCategories = new FrmCategories();
+            frmCategories.Show();
+            this.Hide();
+        }
     }
 }
