@@ -48,23 +48,14 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.lblYapiKrediBalance = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.lblBankProccess5 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.lblBankProccess4 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.lblBankProccess3 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lblBankProccess2 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.lblBankProccess1 = new System.Windows.Forms.Label();
+            this.lblZiraatBankAccountNumber = new System.Windows.Forms.Label();
+            this.lblIsBankAccountNumber = new System.Windows.Forms.Label();
+            this.lblYapiBankAccountNumber = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -206,9 +197,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 19);
+            this.label1.Size = new System.Drawing.Size(69, 19);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Banka Formu";
+            this.label1.Text = "Bankalar";
             // 
             // label2
             // 
@@ -224,11 +215,12 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
+            this.panel3.Controls.Add(this.lblZiraatBankAccountNumber);
             this.panel3.Controls.Add(this.lblZiraatBankBalance);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(203, 48);
+            this.panel3.Location = new System.Drawing.Point(203, 65);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 100);
+            this.panel3.Size = new System.Drawing.Size(592, 100);
             this.panel3.TabIndex = 5;
             // 
             // lblZiraatBankBalance
@@ -256,11 +248,12 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(31)))), ((int)(((byte)(151)))));
+            this.panel4.Controls.Add(this.lblIsBankAccountNumber);
             this.panel4.Controls.Add(this.lblIsBankBalance);
             this.panel4.Controls.Add(this.label2);
-            this.panel4.Location = new System.Drawing.Point(409, 48);
+            this.panel4.Location = new System.Drawing.Point(203, 198);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 100);
+            this.panel4.Size = new System.Drawing.Size(592, 100);
             this.panel4.TabIndex = 6;
             // 
             // lblIsBankBalance
@@ -277,11 +270,12 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(82)))), ((int)(((byte)(221)))));
+            this.panel5.Controls.Add(this.lblYapiBankAccountNumber);
             this.panel5.Controls.Add(this.lblYapiKrediBalance);
             this.panel5.Controls.Add(this.label4);
-            this.panel5.Location = new System.Drawing.Point(615, 48);
+            this.panel5.Location = new System.Drawing.Point(203, 328);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 100);
+            this.panel5.Size = new System.Drawing.Size(592, 100);
             this.panel5.TabIndex = 6;
             // 
             // lblYapiKrediBalance
@@ -306,130 +300,38 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Yapı Kredi";
             // 
-            // groupBox1
+            // lblZiraatBankAccountNumber
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(168)))), ((int)(((byte)(1)))));
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.lblBankProccess5);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.lblBankProccess4);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.lblBankProccess3);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.lblBankProccess2);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.lblBankProccess1);
-            this.groupBox1.Location = new System.Drawing.Point(203, 232);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(612, 221);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Son 5 Banka Hareketi";
+            this.lblZiraatBankAccountNumber.AutoSize = true;
+            this.lblZiraatBankAccountNumber.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblZiraatBankAccountNumber.ForeColor = System.Drawing.Color.White;
+            this.lblZiraatBankAccountNumber.Location = new System.Drawing.Point(462, 5);
+            this.lblZiraatBankAccountNumber.Name = "lblZiraatBankAccountNumber";
+            this.lblZiraatBankAccountNumber.Size = new System.Drawing.Size(95, 15);
+            this.lblZiraatBankAccountNumber.TabIndex = 7;
+            this.lblZiraatBankAccountNumber.Text = "Hesap Numarası";
             // 
-            // label15
+            // lblIsBankAccountNumber
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(2, 200);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(609, 19);
-            this.label15.TabIndex = 9;
-            this.label15.Text = "---------------------------------------------------------------------------------" +
-    "---------------------------------------";
+            this.lblIsBankAccountNumber.AutoSize = true;
+            this.lblIsBankAccountNumber.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblIsBankAccountNumber.ForeColor = System.Drawing.Color.White;
+            this.lblIsBankAccountNumber.Location = new System.Drawing.Point(462, 5);
+            this.lblIsBankAccountNumber.Name = "lblIsBankAccountNumber";
+            this.lblIsBankAccountNumber.Size = new System.Drawing.Size(95, 15);
+            this.lblIsBankAccountNumber.TabIndex = 8;
+            this.lblIsBankAccountNumber.Text = "Hesap Numarası";
             // 
-            // lblBankProccess5
+            // lblYapiBankAccountNumber
             // 
-            this.lblBankProccess5.AutoSize = true;
-            this.lblBankProccess5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProccess5.Location = new System.Drawing.Point(6, 180);
-            this.lblBankProccess5.Name = "lblBankProccess5";
-            this.lblBankProccess5.Size = new System.Drawing.Size(48, 19);
-            this.lblBankProccess5.TabIndex = 8;
-            this.lblBankProccess5.Text = "Text 5";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(2, 161);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(609, 19);
-            this.label9.TabIndex = 7;
-            this.label9.Text = "---------------------------------------------------------------------------------" +
-    "---------------------------------------";
-            // 
-            // lblBankProccess4
-            // 
-            this.lblBankProccess4.AutoSize = true;
-            this.lblBankProccess4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProccess4.Location = new System.Drawing.Point(6, 141);
-            this.lblBankProccess4.Name = "lblBankProccess4";
-            this.lblBankProccess4.Size = new System.Drawing.Size(48, 19);
-            this.lblBankProccess4.TabIndex = 6;
-            this.lblBankProccess4.Text = "Text 4";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(2, 121);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(609, 19);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "---------------------------------------------------------------------------------" +
-    "---------------------------------------";
-            // 
-            // lblBankProccess3
-            // 
-            this.lblBankProccess3.AutoSize = true;
-            this.lblBankProccess3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProccess3.Location = new System.Drawing.Point(6, 101);
-            this.lblBankProccess3.Name = "lblBankProccess3";
-            this.lblBankProccess3.Size = new System.Drawing.Size(48, 19);
-            this.lblBankProccess3.TabIndex = 4;
-            this.lblBankProccess3.Text = "Text 3";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(2, 80);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(609, 19);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "---------------------------------------------------------------------------------" +
-    "---------------------------------------";
-            // 
-            // lblBankProccess2
-            // 
-            this.lblBankProccess2.AutoSize = true;
-            this.lblBankProccess2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProccess2.Location = new System.Drawing.Point(6, 60);
-            this.lblBankProccess2.Name = "lblBankProccess2";
-            this.lblBankProccess2.Size = new System.Drawing.Size(48, 19);
-            this.lblBankProccess2.TabIndex = 2;
-            this.lblBankProccess2.Text = "Text 2";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(2, 40);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(609, 19);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "---------------------------------------------------------------------------------" +
-    "---------------------------------------";
-            // 
-            // lblBankProccess1
-            // 
-            this.lblBankProccess1.AutoSize = true;
-            this.lblBankProccess1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProccess1.Location = new System.Drawing.Point(6, 20);
-            this.lblBankProccess1.Name = "lblBankProccess1";
-            this.lblBankProccess1.Size = new System.Drawing.Size(48, 19);
-            this.lblBankProccess1.TabIndex = 0;
-            this.lblBankProccess1.Text = "Text 1";
+            this.lblYapiBankAccountNumber.AutoSize = true;
+            this.lblYapiBankAccountNumber.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblYapiBankAccountNumber.ForeColor = System.Drawing.Color.White;
+            this.lblYapiBankAccountNumber.Location = new System.Drawing.Point(462, 5);
+            this.lblYapiBankAccountNumber.Name = "lblYapiBankAccountNumber";
+            this.lblYapiBankAccountNumber.Size = new System.Drawing.Size(95, 15);
+            this.lblYapiBankAccountNumber.TabIndex = 9;
+            this.lblYapiBankAccountNumber.Text = "Hesap Numarası";
             // 
             // FrmBanks
             // 
@@ -437,7 +339,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(195)))), ((int)(((byte)(199)))));
             this.ClientSize = new System.Drawing.Size(828, 465);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel3);
@@ -457,8 +358,6 @@
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -485,16 +384,8 @@
         private System.Windows.Forms.Label lblIsBankBalance;
         private System.Windows.Forms.Label lblYapiKrediBalance;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label lblBankProccess1;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label lblBankProccess5;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label lblBankProccess4;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label lblBankProccess3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label lblBankProccess2;
+        private System.Windows.Forms.Label lblZiraatBankAccountNumber;
+        private System.Windows.Forms.Label lblIsBankAccountNumber;
+        private System.Windows.Forms.Label lblYapiBankAccountNumber;
     }
 }
