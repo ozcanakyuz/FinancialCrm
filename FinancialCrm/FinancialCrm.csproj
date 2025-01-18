@@ -207,10 +207,18 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="assets\ayarlar.png" />
     <Content Include="assets\banka.png" />
+    <Content Include="assets\bankahareketleri_filtre.png" />
+    <Content Include="assets\bankahareketleri_max.png" />
+    <Content Include="assets\bankahareketleri_min.png" />
+    <Content Include="assets\bankahareketleri_tümü.png" />
     <Content Include="assets\cikisyap.png" />
     <Content Include="assets\dashboard.png" />
+    <Content Include="assets\giderler.png" />
+    <Content Include="assets\kategoriler.png" />
     <Content Include="assets\kayitol.png" />
+    <Content Include="assets\kayitol_basarili.png" />
     <Content Include="assets\login.png" />
     <Content Include="assets\login_basarili.png" />
     <Content Include="assets\odeme.png" />
