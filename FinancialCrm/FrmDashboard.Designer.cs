@@ -76,11 +76,11 @@
             // lblLastBankProcessAmount
             // 
             this.lblLastBankProcessAmount.AutoSize = true;
-            this.lblLastBankProcessAmount.Font = new System.Drawing.Font("Calibri", 42F, System.Drawing.FontStyle.Bold);
+            this.lblLastBankProcessAmount.Font = new System.Drawing.Font("Calibri", 30F, System.Drawing.FontStyle.Bold);
             this.lblLastBankProcessAmount.ForeColor = System.Drawing.Color.White;
-            this.lblLastBankProcessAmount.Location = new System.Drawing.Point(-6, 32);
+            this.lblLastBankProcessAmount.Location = new System.Drawing.Point(-3, 47);
             this.lblLastBankProcessAmount.Name = "lblLastBankProcessAmount";
-            this.lblLastBankProcessAmount.Size = new System.Drawing.Size(168, 68);
+            this.lblLastBankProcessAmount.Size = new System.Drawing.Size(121, 49);
             this.lblLastBankProcessAmount.TabIndex = 8;
             this.lblLastBankProcessAmount.Text = "0,00 ₺";
             // 
@@ -98,11 +98,11 @@
             // lblBillAmount
             // 
             this.lblBillAmount.AutoSize = true;
-            this.lblBillAmount.Font = new System.Drawing.Font("Calibri", 42F, System.Drawing.FontStyle.Bold);
+            this.lblBillAmount.Font = new System.Drawing.Font("Calibri", 30F, System.Drawing.FontStyle.Bold);
             this.lblBillAmount.ForeColor = System.Drawing.Color.White;
-            this.lblBillAmount.Location = new System.Drawing.Point(-5, 32);
+            this.lblBillAmount.Location = new System.Drawing.Point(-2, 47);
             this.lblBillAmount.Name = "lblBillAmount";
-            this.lblBillAmount.Size = new System.Drawing.Size(168, 68);
+            this.lblBillAmount.Size = new System.Drawing.Size(121, 49);
             this.lblBillAmount.TabIndex = 7;
             this.lblBillAmount.Text = "0,00 ₺";
             // 
@@ -130,11 +130,11 @@
             // lblTotalBalance
             // 
             this.lblTotalBalance.AutoSize = true;
-            this.lblTotalBalance.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold);
+            this.lblTotalBalance.Font = new System.Drawing.Font("Calibri", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblTotalBalance.ForeColor = System.Drawing.Color.White;
-            this.lblTotalBalance.Location = new System.Drawing.Point(-5, 35);
+            this.lblTotalBalance.Location = new System.Drawing.Point(-3, 47);
             this.lblTotalBalance.Name = "lblTotalBalance";
-            this.lblTotalBalance.Size = new System.Drawing.Size(162, 66);
+            this.lblTotalBalance.Size = new System.Drawing.Size(121, 49);
             this.lblTotalBalance.TabIndex = 6;
             this.lblTotalBalance.Text = "0,00 ₺";
             // 
