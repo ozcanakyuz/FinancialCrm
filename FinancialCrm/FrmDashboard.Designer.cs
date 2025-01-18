@@ -240,6 +240,7 @@
             this.btnFrmBankProcess.TabIndex = 4;
             this.btnFrmBankProcess.Text = "Banka Hareketleri";
             this.btnFrmBankProcess.UseVisualStyleBackColor = true;
+            this.btnFrmBankProcess.Click += new System.EventHandler(this.btnFrmBankProcess_Click);
             // 
             // btnFrmSpendings
             // 

@@ -234,11 +234,11 @@
             // lblZiraatBankBalance
             // 
             this.lblZiraatBankBalance.AutoSize = true;
-            this.lblZiraatBankBalance.Font = new System.Drawing.Font("Calibri", 42F, System.Drawing.FontStyle.Bold);
+            this.lblZiraatBankBalance.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblZiraatBankBalance.ForeColor = System.Drawing.Color.White;
-            this.lblZiraatBankBalance.Location = new System.Drawing.Point(-6, 32);
+            this.lblZiraatBankBalance.Location = new System.Drawing.Point(-4, 39);
             this.lblZiraatBankBalance.Name = "lblZiraatBankBalance";
-            this.lblZiraatBankBalance.Size = new System.Drawing.Size(168, 68);
+            this.lblZiraatBankBalance.Size = new System.Drawing.Size(144, 59);
             this.lblZiraatBankBalance.TabIndex = 6;
             this.lblZiraatBankBalance.Text = "0,00 ₺";
             // 
@@ -266,11 +266,11 @@
             // lblIsBankBalance
             // 
             this.lblIsBankBalance.AutoSize = true;
-            this.lblIsBankBalance.Font = new System.Drawing.Font("Calibri", 42F, System.Drawing.FontStyle.Bold);
+            this.lblIsBankBalance.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold);
             this.lblIsBankBalance.ForeColor = System.Drawing.Color.White;
-            this.lblIsBankBalance.Location = new System.Drawing.Point(-5, 32);
+            this.lblIsBankBalance.Location = new System.Drawing.Point(-3, 39);
             this.lblIsBankBalance.Name = "lblIsBankBalance";
-            this.lblIsBankBalance.Size = new System.Drawing.Size(168, 68);
+            this.lblIsBankBalance.Size = new System.Drawing.Size(144, 59);
             this.lblIsBankBalance.TabIndex = 7;
             this.lblIsBankBalance.Text = "0,00 ₺";
             // 
@@ -287,11 +287,11 @@
             // lblYapiKrediBalance
             // 
             this.lblYapiKrediBalance.AutoSize = true;
-            this.lblYapiKrediBalance.Font = new System.Drawing.Font("Calibri", 42F, System.Drawing.FontStyle.Bold);
+            this.lblYapiKrediBalance.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold);
             this.lblYapiKrediBalance.ForeColor = System.Drawing.Color.White;
-            this.lblYapiKrediBalance.Location = new System.Drawing.Point(-6, 32);
+            this.lblYapiKrediBalance.Location = new System.Drawing.Point(-4, 39);
             this.lblYapiKrediBalance.Name = "lblYapiKrediBalance";
-            this.lblYapiKrediBalance.Size = new System.Drawing.Size(168, 68);
+            this.lblYapiKrediBalance.Size = new System.Drawing.Size(144, 59);
             this.lblYapiKrediBalance.TabIndex = 8;
             this.lblYapiKrediBalance.Text = "0,00 ₺";
             // 
@@ -319,9 +319,9 @@
             this.groupBox1.Controls.Add(this.lblBankProccess2);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.lblBankProccess1);
-            this.groupBox1.Location = new System.Drawing.Point(203, 154);
+            this.groupBox1.Location = new System.Drawing.Point(203, 232);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(612, 299);
+            this.groupBox1.Size = new System.Drawing.Size(612, 221);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Son 5 Banka Hareketi";
@@ -330,7 +330,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(2, 234);
+            this.label15.Location = new System.Drawing.Point(2, 200);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(609, 19);
             this.label15.TabIndex = 9;
@@ -341,7 +341,7 @@
             // 
             this.lblBankProccess5.AutoSize = true;
             this.lblBankProccess5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProccess5.Location = new System.Drawing.Point(6, 214);
+            this.lblBankProccess5.Location = new System.Drawing.Point(6, 180);
             this.lblBankProccess5.Name = "lblBankProccess5";
             this.lblBankProccess5.Size = new System.Drawing.Size(48, 19);
             this.lblBankProccess5.TabIndex = 8;
@@ -351,7 +351,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(2, 195);
+            this.label9.Location = new System.Drawing.Point(2, 161);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(609, 19);
             this.label9.TabIndex = 7;
@@ -362,7 +362,7 @@
             // 
             this.lblBankProccess4.AutoSize = true;
             this.lblBankProccess4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProccess4.Location = new System.Drawing.Point(6, 175);
+            this.lblBankProccess4.Location = new System.Drawing.Point(6, 141);
             this.lblBankProccess4.Name = "lblBankProccess4";
             this.lblBankProccess4.Size = new System.Drawing.Size(48, 19);
             this.lblBankProccess4.TabIndex = 6;
@@ -372,7 +372,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(2, 155);
+            this.label11.Location = new System.Drawing.Point(2, 121);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(609, 19);
             this.label11.TabIndex = 5;
@@ -383,7 +383,7 @@
             // 
             this.lblBankProccess3.AutoSize = true;
             this.lblBankProccess3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProccess3.Location = new System.Drawing.Point(6, 135);
+            this.lblBankProccess3.Location = new System.Drawing.Point(6, 101);
             this.lblBankProccess3.Name = "lblBankProccess3";
             this.lblBankProccess3.Size = new System.Drawing.Size(48, 19);
             this.lblBankProccess3.TabIndex = 4;
@@ -393,7 +393,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(2, 114);
+            this.label7.Location = new System.Drawing.Point(2, 80);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(609, 19);
             this.label7.TabIndex = 3;
@@ -404,7 +404,7 @@
             // 
             this.lblBankProccess2.AutoSize = true;
             this.lblBankProccess2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProccess2.Location = new System.Drawing.Point(6, 94);
+            this.lblBankProccess2.Location = new System.Drawing.Point(6, 60);
             this.lblBankProccess2.Name = "lblBankProccess2";
             this.lblBankProccess2.Size = new System.Drawing.Size(48, 19);
             this.lblBankProccess2.TabIndex = 2;
@@ -414,7 +414,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(2, 74);
+            this.label6.Location = new System.Drawing.Point(2, 40);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(609, 19);
             this.label6.TabIndex = 1;
@@ -425,7 +425,7 @@
             // 
             this.lblBankProccess1.AutoSize = true;
             this.lblBankProccess1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBankProccess1.Location = new System.Drawing.Point(6, 54);
+            this.lblBankProccess1.Location = new System.Drawing.Point(6, 20);
             this.lblBankProccess1.Name = "lblBankProccess1";
             this.lblBankProccess1.Size = new System.Drawing.Size(48, 19);
             this.lblBankProccess1.TabIndex = 0;
