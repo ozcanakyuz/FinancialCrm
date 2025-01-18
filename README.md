@@ -1,22 +1,46 @@
 # **FinancialCrm**
 
-**FinancialCrm**, banka işlemleri, faturalar, kategoriler, harcamalar ve kullanıcı kimlik doğrulaması yönetimi için **Windows Forms** uygulamasıdır. Bu proje, **SQL veritabanı** ile entegrasyon sağlayarak finansal verilerinizi kolayca yönetmenizi sağlar.
+**FinancialCrm**, banka işlemleri, faturalar, kategoriler, harcamalar ve kullanıcı kimlik doğrulaması yönetimi için **Windows Forms** uygulamasıdır. Bu proje, **SQL veritabanı** ile entegre bir yapıya sahip olup finansal yönetim süreçlerini kolaylaştırır.
 
-## 🚀 Özellikler
+---
 
-- **Banka Yönetimi**: Banka bilgilerini yönetir (banka başlıkları, bakiye bilgileri).
-- **Fatura Sistemi**: Faturaları takip eder. Yeni fatura ekleyebilir, silebilir ve güncelleyebilirsiniz.
-- **Harcamalar Yönetimi**: Harcamaları kategorilere ayırarak daha düzenli bir takip sağlar.
-- **Kategoriler Yönetimi**: Harcamalarınızı belirli kategorilere ayırır.
-- **Kullanıcı Kimlik Doğrulama**: Kullanıcıların sisteme kayıt olmalarını ve giriş yapmalarını sağlar.
-- **Dashboard**: Genel finansal durumu ve önemli bilgileri görüntüler.
+## 🚀 **Özellikler**
 
-## 🖥 Formlar
+- **Banka Yönetimi**: Banka bilgilerini ve bakiye durumunu yönetin.
+- **Fatura Yönetimi**: Faturalarınızı listeleyin, ekleyin, silin ve güncelleyin.
+- **Harcamalar Yönetimi**: Harcamalarınızı kategorilere ayırarak takip edin.
+- **Kategori Yönetimi**: Harcamalarınız için özel kategoriler oluşturun.
+- **Kullanıcı Yönetimi**: Şifre değişikliği ve kullanıcı kimlik doğrulaması.
+- **Raporlama**: Genel finansal durumu analiz edin ve işlem geçmişini görün.
+- **Filtreleme Seçenekleri**: İşlemleri “Tümünü Göster,” “Maksimum Ücretli” ve “Minimum Ücretli” gibi kriterlere göre filtreleyin.
 
-Aşağıda uygulamanın temel bileşenleri olan formlar yer almaktadır:
+---
+
+## 🖥 **Formlar**
+
+### **FrmDashboard**
+Uygulamanın ana kontrol panelidir. Bankalar, faturalar, harcamalar ve kategoriler gibi tüm modüllere buradan geçiş yapılır.
+
+- **Ekran Görüntüsü:**
+  ![FrmDashboard Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/dashboard.png)
+
+---
+
+### **FrmCategories**
+Kategoriler formu yalnızca harcama kategorilerini yönetmek için kullanılır.
+
+- **Kategori İşlemleri**:
+  - Kategori ekleme
+  - Kategori güncelleme
+  - Kategori silme
+
+- **Ekran Görüntüsü:**
+  ![FrmCategories Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/kategoriler.png)
+
+---
 
 ### **FrmBanks**
-Banka kayıtlarını yönetmek için kullanılan formdur. Banka başlıkları ve bakiye bilgilerini ekleyebilir, güncelleyebilir veya silebilirsiniz.
+Banka kayıtlarını gösterir. Banka başlıkları, hesap numaraları ve hesap bakiyeleri görüntülenir.
 
 - **Ekran Görüntüsü:**
   ![FrmBanks Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/banka.png)
@@ -24,23 +48,56 @@ Banka kayıtlarını yönetmek için kullanılan formdur. Banka başlıkları ve
 ---
 
 ### **FrmBilling**
-Faturaların yönetildiği formdur. Faturaları listeleyebilir, yeni fatura ekleyebilir, mevcut faturaları güncelleyebilir veya silebilirsiniz.
-
-- **Yeni Fatura Ekleme**: Kullanıcı, yeni fatura bilgilerini girerek sisteme fatura ekler.
-- **Fatura Silme**: Mevcut faturalar silinebilir.
-- **Fatura Güncelleme**: Var olan faturaların bilgileri güncellenebilir.
-- **Fatura Listeleme**: Sistemdeki tüm faturalar listelenebilir.
+Faturaların eklenmesi, düzenlenmesi ve silinmesi için kullanılır. Fatura başlığı, tutarı gibi bilgiler kaydedilebilir.
 
 - **Ekran Görüntüsü:**
-  ![FrmBilling Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/odeme.png)
+  ![FrmBilling Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/fatura.png)
 
 ---
 
-### **FrmDashboard**
-Uygulamanın ana sayfasıdır. Bankalar, faturalar, harcamalar ve kullanıcılar gibi tüm önemli modülleri bir arada gösterir ve bu modüllere geçiş yapmanıza olanak tanır.
+### **FrmSpendings**
+Bu form, harcamalarınızı yönetmek için tasarlanmıştır.
+
+- **Harcama İşlemleri**:
+  - Yeni harcama ekleme (Harcama adı, tutarı, tarihi ve kategorisi)
+  - Harcama silme
+  - Harcama güncelleme
 
 - **Ekran Görüntüsü:**
-  ![FrmDashboard Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/dashboard.png)
+  ![FrmSpendings Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/harcama.png)
+
+---
+
+### **FrmBankProcess**
+Bu form, banka işlemlerini ve hareket geçmişini görüntüler.
+
+- **Son 9 Banka Hareketi**: Bankalar arasındaki son 9 işlem listelenir.
+- **Filtreleme Özellikleri**:
+  - **Tümünü Göster**: Tüm işlemleri listeleyin.
+  - **Maksimum Ücretli**: En yüksek işlem tutarlarını gösterir.
+  - **Minimum Ücretli**: En düşük işlem tutarlarını gösterir.
+
+- **Ekran Görüntüsü:**
+  ![FrmBankProcess Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/bankahareketleri_filtre.png)
+  ![FrmBankProcess Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/bankahareketleri_tümü.png)
+  ![FrmBankProcess Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/bankahareketleri_max.png)
+  ![FrmBankProcess Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/bankahareketleri_min.png)
+
+---
+
+### **FrmSettings**
+Kullanıcıların şifrelerini değiştirmelerine olanak tanır.
+
+- **Ekran Görüntüsü:**
+  ![FrmSettings Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/ayarlar.png)
+
+---
+
+### **Çıkış Yap**
+Kullanıcıların sistemden çıkış yapabilmesi için kullanılan butondur.
+
+- **Ekran Görüntüsü:**
+  ![CikisYap Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/cikisyap.png)
 
 ---
 
@@ -49,6 +106,7 @@ Yeni kullanıcıların sisteme kayıt olabilmesi için kullanılan formdur. Kull
 
 - **Ekran Görüntüsü:**
   ![FrmKayitOl Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/kayitol.png)
+  ![FrmKayitOl Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/kayitol_basarili.png)
 
 ---
 
@@ -61,123 +119,44 @@ Kullanıcıların sisteme giriş yapabilmesi için kullanılan formdur. Kullanı
 
 ---
 
-### **Çıkış Yap**
-Kullanıcıların sistemden çıkış yapabilmesi için kullanılan butondur.
 
-- **Ekran Görüntüsü:**
-  ![CikisYap Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/cikisyap.png)
-  
----
+## 🗄 **SQL Tabloları**
 
-## 🗄 SQL Tabloları
-
-Bu uygulama aşağıdaki SQL tablolarını kullanmaktadır:
-
-- **dbo.BankProcess**: Banka işlemleriyle ilgili verileri saklar.
-- **dbo.Banks**: Bankalarla ilgili bilgiler içerir.
-- **dbo.Bills**: Fatura bilgilerini içerir.
-- **dbo.Categories**: Harcama kategorilerini içerir.
-- **dbo.Spendings**: Harcama kayıtlarını içerir.
-- **dbo.Users**: Kullanıcı bilgilerini içerir.
-
-## 📊 Veritabanı Şeması
-
-Aşağıda, veritabanının temel şeması yer almaktadır:
-
-### **dbo.Banks**
-| **Sütun Adı**  | **Veri Tipi**     |
-|----------------|-------------------|
-| Id             | INT (Primary Key) |
-| BankTitle      | NVARCHAR(100)     |
-| BankBalance    | DECIMAL(18, 2)    |
+1. **dbo.Banks**: Banka bilgilerini içerir.
+2. **dbo.BankProcess**: Banka hareket geçmişini tutar.
+3. **dbo.Categories**: Harcama kategorilerini içerir.
+4. **dbo.Spendings**: Harcama kayıtlarını saklar.
+5. **dbo.Users**: Kullanıcı bilgilerini içerir.
+6. **dbo.Bills**: Fatura bilgilerini tutar.
 
 ---
 
-### **dbo.Bills**
-| **Sütun Adı**  | **Veri Tipi**     |
-|----------------|-------------------|
-| Id             | INT (Primary Key) |
-| BillTitle      | NVARCHAR(100)     |
-| BillAmount     | DECIMAL(18, 2)    |
-
----
-
-### **dbo.Categories**
-| **Sütun Adı**  | **Veri Tipi**     |
-|----------------|-------------------|
-| Id             | INT (Primary Key) |
-| CategoryName   | NVARCHAR(100)     |
-
----
-
-### **dbo.Spendings**
-| **Sütun Adı**  | **Veri Tipi**     |
-|----------------|-------------------|
-| Id             | INT (Primary Key) |
-| Amount         | DECIMAL(18, 2)    |
-| CategoryId     | INT (Foreign Key) |
-| Description    | NVARCHAR(255)     |
-
----
-
-### **dbo.Users**
-| **Sütun Adı**  | **Veri Tipi**     |
-|----------------|-------------------|
-| Id             | INT (Primary Key) |
-| Username       | NVARCHAR(50)      |
-| Password       | NVARCHAR(255)     |
-| Email          | NVARCHAR(100)     |
-| CreatedAt      | DATETIME          |
-
----
-
-### **dbo.BankProcess**
-| **Sütun Adı**  | **Veri Tipi**     |
-|----------------|-------------------|
-| Id             | INT (Primary Key) |
-| BankId         | INT (Foreign Key) |
-| ProcessType    | NVARCHAR(50)      |
-| Amount         | DECIMAL(18, 2)    |
-| ProcessDate    | DATETIME          |
-
-## ⚙️ Başlangıç
+## ⚙️ **Başlangıç**
 
 ### Gereksinimler
 
-- **Visual Studio 2022** veya daha yeni bir sürüm
-- **.NET Framework 4.8** veya daha yeni bir sürüm
-- **SQL Server** veritabanı yönetimi
+- **Visual Studio 2022** veya daha güncel bir IDE
+- **.NET Framework 4.8**
+- **SQL Server**
 
 ### Kurulum
 
-1. Projeyi **GitHub**'dan bilgisayarınıza klonlayın:
-
+1. Projeyi klonlayın:
    ```bash
    git clone https://github.com/ozcanakyuz/FinancialCrm.git
    ```
+2. SQL veritabanını oluşturun.
+3. Bağlantı dizesini yapılandırın.
+4. Projeyi çalıştırın.
 
-2. **Visual Studio**'da çözümü açın.
+---
 
-3. **SQL Veritabanı**'nı yukarıdaki şemaya göre oluşturun.
+## 📝 **Lisans**
 
-4. Bağlantı dizesini **SQL Server**'a göre yapılandırın.
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](https://github.com/ozcanakyuz/FinancialCrm/blob/main/LICENSE) dosyasını inceleyebilirsiniz.
 
-5. Projeyi **derleyin** ve çalıştırın.
+---
 
-### Kullanım
+## 👏 **Teşekkürler**
+Bu proje **Murat Yücedağ (C# Eğitim Kampı)** katkıları sayesinde geliştirilmiştir. Yardımlarınız ve katkılarınız için teşekkür ederim!
 
-1. Uygulamayı başlatın.
-2. Giriş yapın veya yeni bir kullanıcı kaydettikten sonra giriş yapın.
-3. Dashboard ekranında farklı modüllere geçiş yapın.
-4. Banka kayıtları, faturalar, harcamalar ve kategorilerle ilgili işlemleri yapabilirsiniz.
-
-### Geliştirilmesi Planlanan Özellikler
-
-- **Şifre güvenliği** için şifrelerin hashlenmesi (geliştirilme aşamasında).
-- Finansal özetler için **gelişmiş raporlama** özellikleri.
-
-## 📝 Lisans
-
-Bu proje **MIT Lisansı** ile lisanslanmıştır - daha fazla bilgi için [LICENSE](https://github.com/ozcanakyuz/FinancialCrm/blob/main/LICENSE) dosyasına göz atabilirsiniz.
-
-## 👏 Teşekkürler MURAT YÜCEDAĞ
