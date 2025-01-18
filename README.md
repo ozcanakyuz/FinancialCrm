@@ -51,7 +51,7 @@ Banka kayıtlarını gösterir. Banka başlıkları, hesap numaraları ve hesap 
 Faturaların eklenmesi, düzenlenmesi ve silinmesi için kullanılır. Fatura başlığı, tutarı gibi bilgiler kaydedilebilir.
 
 - **Ekran Görüntüsü:**
-  ![FrmBilling Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/odeme.png)
+  ![FrmBilling Screenshot](https://github.com/ozcanakyuz/FinancialCrm/raw/master/FinancialCrm/assets/fatura.png)
 
 ---
 
